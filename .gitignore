@@ -1,0 +1,43 @@
+# Personal photos and everything rendered from them stay on this machine.
+/darkroom.toml
+/data/
+/out/
+
+# RAW, TIFF and JPEG files anywhere except tests/ (synthetic fixtures only).
+*.[nN][eE][fF]
+*.[nN][rR][wW]
+*.[cC][rR][23]
+*.[cC][rR][wW]
+*.[aA][rR][wW]
+*.[sS][rR][fF]
+*.[sS][rR]2
+*.[rR][aA][fF]
+*.[oO][rR][fF]
+*.[rR][wW]2
+*.[pP][eE][fF]
+*.[dD][nN][gG]
+*.[sS][rR][wW]
+*.[xX]3[fF]
+*.3[fF][rR]
+*.[iI][iI][qQ]
+*.[rR][aA][wW]
+*.[rR][wW][lL]
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[xX][mM][pP]
+!/tests/**
+
+# Python and tooling
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/

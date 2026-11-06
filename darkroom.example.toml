@@ -1,0 +1,15 @@
+# Copy to darkroom.toml (git-ignored) and point it at your own library.
+# Relative paths are resolved against the folder this file is in.
+
+[library]
+# The RAW library. darkroom only ever opens files here read-only.
+root = "data/raw"
+
+[output]
+# Rendered previews, contact sheets and print files go below this folder.
+dir = "out"
+
+[preview]
+# Previews are sRGB JPEGs, small enough to review and share safely.
+long_edge = 1600
+quality = 90
